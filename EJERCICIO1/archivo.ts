@@ -45,14 +45,25 @@ function contar(): void{
     if (Tribunegra.punto < Triburoja.punto){
         EquipoGanador.innerText += 'Triburoja';
     }
+}
+function mostrarResultados() {
+    const resultado = document.getElementById("resultado");
+    if (resultado) {
+        resultado.innerHTML = "¡Aquí están los resultados!";
 
-    function mostrarResultados() {
-        const resultado = document.getElementById("resultado");
-        if (resultado) {
-            resultado.innerHTML = "¡Aquí están los resultados!";
-        }
     }
 }
+
+
+///me voy a m**** 
+
+///          ______
+///         |      |
+///         |      O
+///         |     /|\
+///         |     / \
+///         |
+
 
 
 
