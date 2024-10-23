@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competencia - Tribu Negra vs Tribu Roja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registro de Puntos: Tribu Negra vs Tribu Roja</h1>
+    <div id="app">
+        <div class="Tribu negra">
+            <h2>Tribu Negra</h2>
+            <input type="number" id="handball-negra" placeholder="Handball">
+            <input type="number" id="resistencia-negra" placeholder="Resistencia">
+            <input type="number" id="ajedrez-negra" placeholder="Ajedrez">
+            <button onclick="agregarPuntos('Tribu Negra')">Agregar Puntos</button>
+        </div>
+        
+        <div class="Tribu roja">
+            <h2>Tribu Roja</h2>
+            <input type="number" id="handball-roja" placeholder="Handball">
+            <input type="number" id="resistencia-roja" placeholder="Resistencia">
+            <input type="number" id="ajedrez-roja" placeholder="Ajedrez">
+            <button onclick="agregarPuntos('Tribu Roja')">Agregar Puntos</button>
+        </div>
+        
+
+        <button onclick="mostrarResultados()">Mostrar Resultados</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="archivo.js"></script>
+</body>
+</html>
