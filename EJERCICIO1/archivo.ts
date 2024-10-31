@@ -26,8 +26,7 @@ function agregarPuntos(tribu: string): void {
         Triburoja.punto += puntosHandball + puntosAjedrez + puntosResistencia;
     }
 
-    //mostrarResultados();
-}
+
 
 function mostrarResultados(): void {
     if (OutputResultado) {
